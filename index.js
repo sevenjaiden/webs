@@ -1,13 +1,16 @@
 
 import fetch from 'node-fetch'
 
-const express = require('express');
+import express from 'express'
+
+//const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/courses/:department/:level', (req, res) => {
     const { department, level } = req.params;
-    res.json({ message: `Showing all ${level} level courses in the ${department} department.` });
+    res.json({ department: department,
+                level: level});
 });
 
 app.get('/clothing', (req, res) => {
@@ -18,6 +21,7 @@ app.get('/clothing', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Ready on port ${PORT}`);
 });
+
 
 // Example of an application route that makes a request to another server
 app.get('/advice', async (req, res) => {
