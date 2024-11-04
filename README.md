@@ -1,10 +1,10 @@
-#My web service
+# My web service
 
 ## usage
 type "node index.js" to run
 
-#example parameters
+# example parameters
 /courses/science/500
 
-#example query
+# example query
 /clothing/?color=black&category=shirts
