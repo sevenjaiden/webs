@@ -1,7 +1,7 @@
 # My web service
 
 ## usage
-type "node index.js" to run
+type "node index.js" to run - http://localhost:3000
 
 # example parameters
 /courses/science/500 
