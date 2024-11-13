@@ -1,12 +1,7 @@
-# My web service
+# Custom Kit Maker API
 
 ## usage
-type "node index.js" to run - http://localhost:3000
+Api base url - https://webs-hvx3.onrender.com
 
-# example parameters
-/courses/science/500 
->{"department":"science","level":"500"}
-
-# example query
-/clothing/?color=black&category=shirts 
->{"result":"Showing all black shirts."}
+# example parameters to follow url:
+/players/name/number
